@@ -1,0 +1,12 @@
+﻿<Window x:Class="CarAdminApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Auto Beheer App" Height="450" Width="800">
+    <Grid>
+        <TextBlock Text="Auto Beheer" FontSize="24" HorizontalAlignment="Center" Margin="0,20,0,0"/>
+        <Button Content="Auto Toevoegen" Width="100" Height="30" Margin="590,26,110,378" Click="AutoToevoegen_Click"/>
+        <Button Content="Auto's Bekijken" Width="100" Height="30" Margin="101,375,599,29" Click="AutosBekijken_Click"/>
+        <Button Content="Klanten Beheren" Width="100" Height="30" Margin="590,103,110,301" Click="KlantenBeheren_Click"/>
+        <Button Content="Betalingen Beheren" Width="100" Height="30" Margin="590,375,110,29" Click="BetalingenBeheren_Click"/>
+    </Grid>
+</Window>
